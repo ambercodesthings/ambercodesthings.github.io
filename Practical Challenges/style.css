@@ -1,3 +1,6 @@
+@charset "UTF-8";
+/* CSS Document */
+
 *{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -9,6 +12,11 @@ h1,h2,h3,h4{
    color:#AE053E ;
 }
 h1{
-    text-transform: uppercase;
     font-weight: normal;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+}
+.site-intro {
+	color: blue;
+	font-size: 1.5rem 
 }
