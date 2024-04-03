@@ -39,3 +39,25 @@
 		</ul>
 	</li>
 </ul>
+
+
+
+
+a {
+	color: #336941;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #11361b;
+}
+
+a:hover {
+	color: #057a25;
+	text-decoration: underline;
+}
+
+a:focus {
+	color: #057a25;
+	text-decoration: none;
+}
