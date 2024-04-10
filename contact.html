@@ -29,24 +29,33 @@
    <main>
 
     <form action="/my-handling-form-page" method="post">
+
        
         <ul>
             <li>
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="user_name">
+                <input type="text" id="name" name="Name">
                 <li>
                     <label for="email">Email:</label>
-                <input type="email" id="email" name="user_email">
+                <input type="email" id="email" name="Email">
                 </li>
                 <li>
                     <label for="msg"> Message:</label>
-                    <textarea name="user_message" id="msg" cols="30" rows="10"></textarea>
+                    <textarea name="Message" id="msg" cols="30" rows="10"></textarea>
                 </li>
-            </li>
+           
             <li class="form-button">
                 <button type="submit">Send your Message</button>
-
+                <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+         
+                
             </li>
+
+            
+           
+           
+
+
         </ul>
     </form>
 <!--

@@ -72,3 +72,26 @@ p {
 		color: #448568
 	}
 }
+
+
+
+body {
+	margin: 0;
+}
+
+nav {
+	background-color: #f27ccb;
+	bottom: 0;
+	padding: .25rem;
+	position: fixed;
+	text-align: center;
+}
+
+nav ul {
+	padding-left: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 .5rem;
+}
