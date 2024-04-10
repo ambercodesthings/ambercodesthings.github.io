@@ -61,3 +61,14 @@ a:focus {
 	color: #057a25;
 	text-decoration: none;
 }
+
+
+p {
+	color: #b52a2a;
+	font-family: Helvetica, Arial, sans-serif;
+}
+@media (min-width: 400px) {
+	p { 
+		color: #448568
+	}
+}

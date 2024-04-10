@@ -8,21 +8,36 @@ body{
 h1,h2,h3,h4{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
    color:#050517 ;
+   padding-left: 10rem;
+   padding-right: 10rem;
 }
 h1{
     font-weight: normal;
 	letter-spacing: .15rem;
+    text-align: center;
 	text-transform: uppercase;
 }
-.site-intro {
-	color: #050517;
-	font-size: 1.5rem 
+p {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    text-align: center;
 }
 
+
 /**** Nav Style*****/
+nav ul {
+    padding: 5px;
+    text-align: right;
+
+}
+
+
 nav li {
+
     display: inline-block;
 	list-style: none;
+    padding: 1rem 1rem 8rem 1rem
+    
 }
 
 nav a {
@@ -39,6 +54,22 @@ background-color: #F1E9DB;
 
 /**** End Nav Style****/
 
+
+/****Link Style***********/
+a:link {
+color: #050517;
+text-decoration: none;
+}
+
+a:visited {
+    color:#556F44
+}
+
+a:hover { color:#556F44
+    
+}
+
+/*******End Link Style******/
 
 /***********Contact Form Styles*****************/
 form ul {
