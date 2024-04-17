@@ -86,6 +86,7 @@ label {
 }
 input,
 textarea {
+    
     font: 1 em san-serif;
     margin: 10px;
     padding: 10px;
