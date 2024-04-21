@@ -17,6 +17,10 @@ h1{
     text-align: center;
 	text-transform: uppercase;
 }
+
+h2{
+    color: #556F44;
+}
 p {
     padding-left: 10rem;
     padding-right: 10rem;
