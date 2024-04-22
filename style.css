@@ -103,3 +103,15 @@ textarea {
 
 
 /*************************************************/
+/***********img style*******/
+img {
+   
+    border-radius: 70%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
