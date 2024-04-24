@@ -103,7 +103,8 @@ textarea {
 
 
 /*************************************************/
-/***********img style*******/
+
+/***********profile img style*******/
 img {
    
     border-radius: 90%;
@@ -113,5 +114,17 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    max-width: 40%;
   }
+/******end profile img style*******/
+
+/********tagline style****/
+.tagline {
+    color: #556F44;
+    font-size: 2rem;
+}
+
+/*****link style for external*****/
+
+.link:hover { color: #A71D31; }
+.link { color: #A71D31; }
