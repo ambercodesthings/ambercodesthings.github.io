@@ -163,5 +163,17 @@ header{
     text-transform: uppercase;
   }
   }
-  
+  /******end flex container*****/
+
+  /*****badge style*****/
+  .badge-grid {
+
+    display: grid;
+    grid-column-gap: 2rem;
+	grid-row-gap: 1rem;
+    grid-template-columns: 100px 100px ;
+    grid-template-rows: 8rem 8rem;
+    padding: 5rem;
+    place-content: center;
+  }
   
