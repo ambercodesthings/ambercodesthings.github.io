@@ -176,4 +176,20 @@ header{
     padding: 5rem;
     place-content: center;
   }
-  
+  /****** badge style end******/
+
+  /****button style*****/
+
+  .home-page-button {
+    border-radius: 10px;
+   color: #A71D31;
+    display: block;
+  margin: auto;
+  padding: .5rem;
+  }
+
+  button {
+    background-color: #ffffff;
+    font-family:"Barlow-medium", sans-serif;
+    font-size: medium;
+ }
