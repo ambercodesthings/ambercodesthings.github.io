@@ -117,7 +117,7 @@ textarea {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 60%;
+    max-width: 100%;
     position:absolute;
     left:10px;
     top:10px;
@@ -154,12 +154,12 @@ header{
 
 
 
-  @media (max-width: 350px) {
-    .logo{ width: 105px}
+  @media (max-width: 300px) {
+    .logo{ width: 105x}
    nav li {
     display: block;
     letter-spacing: 0.05rem;
-    padding: 3pt;
+    padding: 5pt;
     text-transform: uppercase;
   }
   }
