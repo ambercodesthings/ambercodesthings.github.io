@@ -29,6 +29,8 @@ p {
 
 
 /**** Nav Style*****/
+
+
 nav ul {
     padding: 5px;
     text-align: right;
@@ -104,19 +106,24 @@ textarea {
 
 /*************************************************/
 
-/***********profile img style*******/
+/***********logo img style*******/
 img {
    
     border-radius: 90%;
 }
 
-.center {
+.logo {
+  
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 40%;
+    position:absolute;
+    left:10px;
+    top:10px;
   }
-/******end profile img style*******/
+ 
+/******logo img style*******/
 
 /********tagline style****/
 .tagline {
@@ -128,3 +135,25 @@ img {
 
 .link:hover { color: #A71D31; }
 .link { color: #A71D31; }
+/*****end link style for external****/
+/****flex container****/
+
+header{
+    align-items: center;
+    display: flex;
+    justify-content: right;
+}
+
+
+
+  @media (max-width: 385px) {
+    .logo{ width: 105px}
+   nav li {
+    display: block;
+    letter-spacing: 0.05rem;
+    padding: 3pt;
+    text-transform: uppercase;
+  }
+  }
+  
+  
