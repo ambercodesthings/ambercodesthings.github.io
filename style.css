@@ -29,7 +29,10 @@ p {
 
 
 /**** Nav Style*****/
-
+nav
+{
+    text-transform: uppercase;
+}
 
 nav ul {
     padding: 5px;
@@ -107,23 +110,28 @@ textarea {
 /*************************************************/
 
 /***********logo img style*******/
-img {
-   
-    border-radius: 90%;
-}
+
 
 .logo {
   
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 40%;
+    max-width: 60%;
     position:absolute;
     left:10px;
     top:10px;
   }
+  .profile-pic {
+   border-radius: 40%;
+    display: block;
+    margin-left: auto;
+   margin-right: auto;
+    max-width: 350px;
+
+  }
  
-/******logo img style*******/
+/******end logo img style*******/
 
 /********tagline style****/
 .tagline {
@@ -146,7 +154,7 @@ header{
 
 
 
-  @media (max-width: 385px) {
+  @media (max-width: 350px) {
     .logo{ width: 105px}
    nav li {
     display: block;
