@@ -4,12 +4,32 @@
     font-style: normal;
   }
 
-
-h1{
-    font-family: "Poiret One", sans-serif;
-    text-align: center;
+  
+  
+.raleway-one {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
 }
 
-h2{
+
+h1, .tagline {
+    font-family: "Poiret One", sans-serif;
     text-align: center;
+    font-weight: 700;
+   
+ 
+}
+
+
+p,h2,h3,h4,h5, li {
+    font-family: "Raleway";
+    margin: .5rem;
+    padding-left: 1rem;
+}
+
+img {
+    width: 300px;
+    height: auto;
 }
