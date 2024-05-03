@@ -1,12 +1,12 @@
 
 *{
-    font-family: Arial, Helvetica, sans-serif
+    font-family:"Barlow", Arial,sans-serif
 }
 body{
     line-height: 1.5;
 }
 h1,h2,h3,h4{
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "Barlow", Arial, sans-serif;
    color:#050517 ;
    padding-left: 10rem;
    padding-right: 10rem;
@@ -20,6 +20,7 @@ h1{
 
 h2{
     color: #556F44;
+    text-align: center;
 }
 p {
     padding-left: 10rem;
@@ -27,6 +28,10 @@ p {
     text-align: center;
 }
 
+  p, body, small {
+      font-family: "Barlow", sans-serif;
+  }
+  
 
 /**** Nav Style*****/
 nav
