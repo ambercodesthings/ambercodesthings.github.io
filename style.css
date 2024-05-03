@@ -150,19 +150,20 @@ textarea {
 .link { color: #A71D31; }
 /*****end link style for external****/
 /****flex container****/
-
+.flex-container{
+    display: flex;
+}
 header{
     align-items: center;
-    display: flex;
     justify-content: right;
 }
 
 
 
-  @media (max-width: 300px) {
-    .logo{ width: 105x}
+  @media (max-width: 200px) {
+    .logo{ width: 50px}
    nav li {
-    display: block;
+    display: inline-block;
     letter-spacing: 0.05rem;
     padding: 5pt;
     text-transform: uppercase;
