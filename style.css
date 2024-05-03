@@ -160,7 +160,7 @@ header{
 
 
 
-  @media (max-width: 200px) {
+  @media (max-width: 300px) {
     .logo{ width: 50px}
    nav li {
     display: inline-block;
