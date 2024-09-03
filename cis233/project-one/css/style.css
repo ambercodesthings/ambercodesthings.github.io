@@ -4,6 +4,7 @@
 h1{
 color: green;
 text-align: center;
+padding-top: 2rem;
 padding-bottom: 2rem;
 font-size: 2.5rem;
 
@@ -24,6 +25,53 @@ h3 {
  }
 
  .profile {
-    border-radius: 60%;
+    border-radius: 80%;
+    border: 1px solid black;
+    width: 200px;
+    height: auto;
+    display: block;
+    
 
+ }
+ .container {
+    display: flex;
+    justify-content: center;
+ }
+
+ .table {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 100px 100px;
+    width: max-content;
+    height: max-content;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 5rem;
+    text-align: center;
+    
+ }
+ .table div{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    align-items: center;
+ }
+ .hobby{
+    background-color: red;
+
+ }
+ .food {
+    background-color: green;
+ }
+ .movie {
+    background-color: yellow;
+ }
+ .travel {
+    background-color:orange ;
+ }
+ .major{
+    background-color: pink;
+ }
+ .wild {
+    background-color: aqua;
  }
