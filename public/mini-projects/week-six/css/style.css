@@ -1,0 +1,37 @@
+
+html {
+    height: 100vh;
+    overflow: hidden;
+  }
+   
+  body {
+    font-family: sans-serif;
+  }
+   
+  .text-center {
+    text-align: center;
+  }
+   
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+   
+  button {
+    background: darkblue;
+    border: 2px solid darkblue;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    text-transform: uppercase;
+    display: block; /* added to center button*/
+    margin: auto;
+  }
+ h2 {
+    text-align: center; 
+    margin-bottom: 30px;
+ }
+ /* added style for spacing*/
