@@ -1,3 +1,18 @@
-* {
-    font-family: sans-serif;
+*{
+    font-family:"Barlow", Arial,sans-serif
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+.bar {
+    width: 10px;
+}
+
+li {
+    list-style: none;
 }

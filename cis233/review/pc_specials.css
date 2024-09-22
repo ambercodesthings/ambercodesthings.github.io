@@ -70,8 +70,7 @@ div.specials {
 /* Award Styles */
 
 aside {
-
-   position: relative;
+position: relative;
    height: 650px;
    overflow: auto;
 }

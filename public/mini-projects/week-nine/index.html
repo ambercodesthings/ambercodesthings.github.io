@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week Nine Project</title>
+    <link rel="stylesheet" href="cs/style.css"></link>
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <h1>Contact Form</h1>
+    <form id="contactForm">
+<ul>
+    <li>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="Name">
+    </li>
+    <li>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="Email">
+</li>
+<li>
+    <label for="msg">Message:</label>
+    <textarea name="Message" id="msg" cols="30" rows="10"></textarea>
+</li>
+<li class="form-button">
+    <button type="submit" id = "button">Contact Me!</button>
+</li>
+
+</ul>
+
+    </form>
+    <div id = "msgCount"></div>
+    <p id = "emailMessage"></p>
+<p>Events used:</p>
+<ol>
+<li>Prevent Default</li>
+<li>Submit: When you input a name and click submit an alert appears.</li>
+    <li>Input: When you type in the message box, it counts the character.</li>
+        <li>Blur: When you type in an email with or without an @ and click out, a message appears.</li>
+<li>Mouse Over: When you hover over the button, it changes color.</li>
+<li>Mouse Out: When you move the mouse away from the button, it changes to pink.</li>
+<li>Focus: When the message box is in focus, it changes to purple</li>
+<li>Click: When you click the button another alert appears and the color changes.</li>
+<li>Keydown: If you press 'X', an alert appears.</li>
+<li>Keyup: Message appears when the X key is released</li>
+
+
+
+
+</ol>
+</body>
+</html>
