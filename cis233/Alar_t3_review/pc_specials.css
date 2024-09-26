@@ -14,7 +14,7 @@
 /* Page Body Styles */
 
 body {
-   width: 95vw;
+   width: 95%;
    min-width: 640px;
    max-width: 960px;
    margin-left: auto;
@@ -31,13 +31,14 @@ body {
 /* Horizontal Navigation Styles */
 
 nav.horizontal ul {
-   /* display: block;
-   float: left;*/
-   display: flex;
-   justify-content: space-around;
+   display: block;
+   float: left;
+   
 
 }
 nav.horizontal li {
+   display: block;
+   float: left;
    width: 16.6%;
 }
 

@@ -1,18 +1,119 @@
+html, body {
+    background-color: black;
+    padding:0;
+    height: 100%;
+    margin: 0;
+}
 *{
     font-family:"Barlow", Arial,sans-serif
 }
 
-.flex-container {
-    display: flex;
-    justify-content: space-between;
-    justify-content: flex-end;
-    margin-right: 30px;
+
+h1 {
+    color: #E9E8EF;
+    margin-bottom: 0;
 }
 
-.bar {
-    width: 10px;
+/*
+Header styles*/
+header {
+    margin-bottom: 0;
+    padding: 0;
 }
+
+.header-content {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+  
+}
+
+/*logo style*/
+.logo {
+    max-width: 300px;
+    padding-bottom: 0;
+    padding-top: 50px;
+   
+   
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+/*Nav Styles*/
+
+
 
 li {
     list-style: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.nav-links {
+    font-size: larger;
+    display: flex;
+    
+
+}
+.nav-links li {
+    margin: 0 10px;
+   
+}
+
+.nav-links a {
+    color: #E9E8EF;
+}
+
+.nav-links a.active {
+    color: #444C22;
+    font-weight: bold;
+}
+
+
+/* Hero Styles*/
+#hero {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    background: url('../media/Black-and-white-sport-fight-boxer_\(24244374201\).jpg') no-repeat center center / cover;
+    color: #E9E8EF;
+    letter-spacing: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#hero-heading {
+    font-size: 50px;
+    letter-spacing: 4.5px;
+    margin-bottom: 50px;
+}
+
+.button {
+    background-color: transparent;
+    color: #E9E8EF;
+    border-radius: 5px;
+    padding: 15px 30px;
+    margin: 30px 30px;
+    border: solid #444C22;
+    font-size: 20px;
+    letter-spacing: 3px;
+    
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* hero h1 animate */
+.word {
+    display: inline-block;
+    opacity: 0;
+    transition: opacity 0.9s ease-in-out;
 }
