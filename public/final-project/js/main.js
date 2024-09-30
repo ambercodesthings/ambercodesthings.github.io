@@ -53,3 +53,12 @@ words.forEach((word, index)=> {
         span.style.opacity = 1;
     }, index * 100);
 });
+
+
+//nav menu
+let hamburger = document.getElementById('hamburger');
+let navMenu = document.querySelector('.nav-links');
+
+hamburger.addEventListener('click', () => {
+    navMenu.classList.toggle('nav-active');
+});

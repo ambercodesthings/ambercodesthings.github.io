@@ -23,15 +23,19 @@ header {
 
 .header-content {
    display: flex;
-   align-items: center;
-   justify-content: space-between;
-   width: 100%;
+   align-items: flex-end;
+   /* justify-content: space-between; */
+   /* width: 100%; */
+   flex-basis: 50%;
+   margin-left: auto;
+   
   
 }
 
 /*logo style*/
 .logo {
     max-width: 300px;
+    /* margin: 0 auto; */
     padding-bottom: 0;
     padding-top: 50px;
    
@@ -40,8 +44,9 @@ header {
 .logo-container {
     display: flex;
     align-items: center;
-    padding: 0;
-    margin: 0;
+    justify-content: space-between; 
+   width: 100%;
+   flex-direction: column;
 }
 /*Nav Styles*/
 
@@ -58,11 +63,13 @@ li {
 .nav-links {
     font-size: larger;
     display: flex;
+    padding-right: 50px;
     
 
 }
 .nav-links li {
     margin: 0 10px;
+    
    
 }
 
@@ -75,7 +82,38 @@ li {
     font-weight: bold;
 }
 
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #E9E8EF;
+    cursor: pointer;
+}
 
+
+
+@media screen and (min-width: 768px) {
+    .logo-container {
+      flex-direction: row;
+    }
+  }
+
+  @media (max-width:768px) {
+    nav ul {
+        flex-direction: column;
+        display: none;
+        width:100%;
+        text-align: center;
+    }
+    .nav-links.active {
+        display: flex;
+    }
+    .hamburger {
+        display: block;
+    }
+  }
+  
 /* Hero Styles*/
 #hero {
     width: 100%;
@@ -115,5 +153,12 @@ li {
 .word {
     display: inline-block;
     opacity: 0;
-    transition: opacity 0.9s ease-in-out;
+    transition: opacity 1.4s ease-in-out;
+}
+
+
+/* Footer */
+.logo-footer {
+    max-width: 200px;
+    opacity: 75%;
 }
