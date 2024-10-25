@@ -1,0 +1,59 @@
+html {
+    background-color: #030C01;
+}
+
+body {
+    color: #F0F2F0;
+    font-family: 'barlow', sans-serif;
+}
+ h1 {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+    color: #FF4365;
+ }
+
+
+/* main heading */
+#main-heading {
+    padding-right: 3rem;
+    padding-left: 1rem;
+    font-size: 6rem;
+    word-wrap: break-word;
+}
+
+/* Top 3 */
+#top3 li {
+    list-style: none;
+    margin-top: 20px;
+}
+
+#top3 ul {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+   align-items: center;
+    padding-left: 0;
+}
+
+#top3 ul li {
+    width: auto;
+    text-align: center;
+}
+
+#top3 {
+    font-size: 4rem;
+    font-family: "Barlow", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.submission-instance {
+    font-size: 6rem;
+    color: #10CBBE;
+}
+
+.submission-type {
+    font-size: 1.5rem;
+}
