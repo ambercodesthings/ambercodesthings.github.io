@@ -2,9 +2,9 @@
 // Main Heading
 
 let i = 0;
-let txt = document.getElementById('main-heading').textContent; // Get the text content
-document.getElementById('main-heading').textContent = ''; // Clear the content initially
-var speed = 80; // The speed/duration of the effect in milliseconds
+let txt = document.getElementById('main-heading').textContent; 
+document.getElementById('main-heading').textContent = ''; 
+let speed = 80; 
 
 function typeWriter(callback) {
   if (i < txt.length) {
@@ -32,7 +32,7 @@ function startSubmissionCounter() {
         let submissionCounts = {};
 
         for (let i = 0; i < data.getNumberOfRows(); i++) {
-            const submissionType = data.getValue(i, 0); // 'Submission Type'
+            const submissionType = data.getValue(i, 0); 
             const submissionInstance = parseInt(data.getValue(i, 1), 10); // 'Submission Instance'
 
             if (submissionCounts[submissionType]) {
@@ -72,21 +72,41 @@ function startSubmissionCounter() {
 function animateCountUp(elementId, finalValue, duration) {
     const element = document.getElementById(elementId);
     let current = 0;
-    const increment = finalValue / (duration / 16); // Estimate 60 FPS (about every 16ms)
+    const increment = finalValue / (duration / 16); 
 
     const counter = setInterval(() => {
         current += increment;
         if (current >= finalValue) {
             current = finalValue;
-            clearInterval(counter); // Stop the counter when it reaches the final value
+            clearInterval(counter); 
         }
         element.textContent = Math.floor(current);
-    }, 16); // Update every 16 milliseconds (roughly 60 FPS)
+    }, 16); 
 }
 
-// Make sure Google Visualization API is loaded before doing anything
+
 google.charts.load('current', { packages: ['corechart', 'table'] });
 google.charts.setOnLoadCallback(function() {
-    // Trigger the typewriter effect on page load, and start submission counter after it finishes
-    typeWriter(startSubmissionCounter); // Call typeWriter, and when it finishes, start the submission counter
+    //Typewriter first then submission counter
+    typeWriter(startSubmissionCounter); 
+});
+
+
+
+
+// hamburger
+
+
+
+  
+
+  let hamburger = document.getElementById('hamburger');
+let navMenu = document.querySelector('.main-nav');
+
+hamburger.addEventListener('click', () => {
+    navMenu.classList.toggle('nav-active');
+});
+
+navMenu.addEventListener('mouseleave',()=> {
+    navMenu.classList.remove('nav-active');
 });
