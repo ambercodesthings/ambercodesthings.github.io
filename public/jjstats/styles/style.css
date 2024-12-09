@@ -8,9 +8,36 @@ html {
 body {
   color: #f0f2f0;
   font-family: "barlow", sans-serif;
+  
 }
 a {
     color: #f0f2f0;
+}
+
+
+h2, h3, h4 {
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: .75em;
+  padding-top: .75em;
+  font-size: 1.5em;
+  font-family: "IBM Plex Mono", monospace;
+  
+}
+.center-text {
+  text-align: center;
+}
+
+p {
+  padding: .25em;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bolder;
 }
 
 
@@ -22,10 +49,11 @@ a:hover{ /* REQUIRED: Pseudo element  11-15-24 */
   /* For screens max 480px  */
 
 h1 {
+  text-align: center;
   font-family: "IBM Plex Mono", monospace;
   font-weight: 400;
   font-style: normal;
-  font-size: 1rem;
+  font-size: 2rem;
   color: #ff4365;
 }
 
@@ -38,6 +66,7 @@ header {
   justify-content: flex-end;
   align-items: center;
   max-width: 100%;
+  padding-bottom: 2rem;
 }
 
 .hamburger {
@@ -106,6 +135,24 @@ nav li {
   font-size: 1.5rem;
 }
 
+/* Main button */
+
+.learn-more {
+  text-align: center;
+}
+
+.learn-more a {
+  display: inline-block; 
+  padding: 10px 20px; 
+  font-size: 16px;
+  border: 2px solid #ff4365;
+  border-radius: 5px; 
+  text-decoration: none;
+  background-color: black;
+  margin-top: 30px;
+ 
+}
+
 /* footer */
 footer {
     padding-top: 8rem;
@@ -132,53 +179,182 @@ footer {
 #copyright {
     padding-top: 2rem;
 }
+
+/* Contact Page */
+legend {
+  text-align: center;
+  padding-bottom: 1em;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  padding: 20px; 
+}
+
+
+form {
+  width: 100%;
+  max-width: 400px; 
+  display: flex;
+  flex-direction: column;
+  gap: 15px; 
+  padding: 20px; 
+  border-radius: 8px; 
+}
+
+
+
+legend {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+form label {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+
+}
+
+
+form textarea {
+  min-height: 100px; 
+  resize: vertical;
+}
+
+/* Style the buttons */
+#contact-button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+ cursor: pointer;
+}
+
+
+/* Recent Events Page */
+
+.ufc-nine-table {
+  border:  1px solid #10cbbe; /*Required: Border 12/7/24*/
+ 
+}
+
+.ufc-nine-table th, .ufc-nine-table td {
+  border: 1px solid #10cbbe; 
+  padding: 8px;
+  
+}
+
+.ufc-nine-table-container {
+display: flex;
+align-items: center;
+justify-content: center;
+padding-top: .75em;
+}
+ .video {
+  display: flex;
+align-items: center;
+justify-content: center;
+ }
+
+.h1-spacing {
+  padding-bottom: 1em;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  max-width: 100%;
+  border: 2px solid black;
+  margin: auto;
+  margin-top: 5rem;
+  text-align: center;
+  gap: 3.3rem;
+  padding: 1rem
+  
+}
+
+.photo-grid img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px; /* REQUIRED: Advanced CSS styling rounded corners 12/9/24*/
+}
+
+
 /* For Screens 481 to 768 px */
 
 /* Required: Media Query 11-15-24*/
 @media (min-width:481px) and (max-width: 768px) {
-    .hamburger {
-        display: block;
-    font-size: 24px;
-    margin-left: auto;    
-      }
-      .main-nav ul {
-        display: none;
-      }
-      #main-heading {
-        padding-right: 3rem;
-        padding-left: 1rem;
-        font-size: 7rem;
-        word-wrap: break-word;
-      }
-      
-   
-    }
-   
-/* Required: Media Query 11-15-24*/
-  /* For screens min 769px */
-@media (min-width: 769px) {
- .main-nav ul {
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    padding-top: 1rem;
-    padding-right: 1rem;
-   
-  }
   .hamburger {
-    display: none;
-  }
-
-  #main-heading {
-   width: 100%;
-   padding: 0;
-    font-size: 8rem;
-    word-wrap: break-word;
-    text-align: center;
-   
-  }
- .main-nav {
-    position: relative;
- }
+      display: block;
+  font-size: 24px;
+  margin-left: auto;    
+    }
+    .main-nav ul {
+      display: none;
+    }
+    #main-heading {
+      padding-right: 3rem;
+      padding-left: 1rem;
+      font-size: 7rem;
+      word-wrap: break-word;
+    }
+    
   
+ 
+  }
+ 
+/* Required: Media Query 11-15-24*/
+/* For screens min 769px */
+@media (min-width: 769px) {
+.main-nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  padding-top: 1rem;
+  padding-right: 1rem;
+ 
 }
+.hamburger {
+  display: none;
+}
+
+#main-heading {
+ width: 100%;
+ padding: 0;
+  font-size: 8rem;
+  word-wrap: break-word;
+  text-align: center;
+ 
+}
+.main-nav {
+  position: relative;
+}
+
+/* Contact form */
+form {
+max-width: 80%; 
+}
+
+
+
+}
+
+
+

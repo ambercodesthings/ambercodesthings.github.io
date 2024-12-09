@@ -1,0 +1,119 @@
+html {
+    background-color:white ;
+    font-family: "Barlow", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #700A5C;
+}
+
+p {
+    color: black;
+    font-size: 20px;
+}
+
+aside {
+    float: right;
+}
+
+body {
+    padding: 50px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+
+
+
+/* Header Styles */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav ul li {
+    list-style: none;
+
+}
+
+/* aside styles */
+
+aside {
+    padding-right: 0;
+    width: 48%;
+    
+}
+
+#featured-artist {
+    text-align: center;
+}
+
+#featured-artist img {
+    max-width: 100%;
+    width: 800px;
+    display: inline-block;
+}
+
+#artist-highlight-text {
+    text-align: center;
+}
+
+/* Splash Banner */
+
+.banner {
+    background-image: url('https://images.unsplash.com/photo-1619252584172-a83a949b6efd?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+.splash-banner-text {
+    text-align: center;
+    font-size: 3rem;
+    color: black;
+}
+
+.splash-banner-subtext {
+    text-align: center;
+
+}
+
+/* Home page heading */
+#home-page-heading {
+    text-align: center;
+    font-family: "Lacquer", serif;
+    font-size: 4rem;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+/* home page statement */
+#home-page-statement {
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+}
+/* clear floats */
+article {
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+
+/* Footer styles */
+
+footer {
+    padding-top: 100px;
+}

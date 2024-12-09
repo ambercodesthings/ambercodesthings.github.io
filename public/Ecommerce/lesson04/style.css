@@ -1,0 +1,12 @@
+h1, h2 {
+    text-align: center;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+div {
+    display: flex;
+    align-items: center;
+}

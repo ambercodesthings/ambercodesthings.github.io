@@ -107,6 +107,3 @@ hamburger.addEventListener('click', () => {
     navMenu.classList.toggle('nav-active');
 });
 
-navMenu.addEventListener('mouseleave',()=> {
-    navMenu.classList.remove('nav-active');
-});

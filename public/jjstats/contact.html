@@ -6,7 +6,7 @@
     <meta name="description" content="The Best Jiu Jitsu Statistics Website">  <!--REQUIRED: description metadata, 11-1-24 -->
    <meta name="keywords" content="BJJ, Bjj Stats, Jiu Jitsu, Submission Rates">   <!--REQUIRED: keyword metadata, 11-1-24 -->
     <meta name="author" content="Amber Alar"> <!--REQUIRED: author metadata, 11-1-24 -->
-    <title>Jiu Jitsu Statistics</title>  <!--REQUIRED: title metadata, 11-1-24 -->
+    <title>Contact Page</title>  <!--REQUIRED: title metadata, 12-7-24 -->
     <link rel="stylesheet" href="styles/reset.css" /> <!--REQUIRED: reset stylesheet, 11-1-24 -->
     <link rel="stylesheet" href="styles/style.css"/>  <!--REQUIRED: stylesheet, 11-1-24 -->
     <script src="js/main.js" defer></script>
@@ -26,7 +26,6 @@
                 <li><a href="index.html">Home</a></li>  <!--REQUIRED: Navigation, 11-1-24 -->
                 <li><a href="about.html">About</a></li>
                 <li><a href="recent.html">Recent Events</a></li>
-                <li><a href="past.html">Past Events</a></li>
                 <li><a href="contact.html">Contact</a></li>
 
             </ul>
@@ -34,9 +33,37 @@
    
     </header>
 
-   
+   <h1>
+    Get in Touch</h1>
+   <h2 id="contact-page-h2">Share your ideas, suggestions, or any improvements you would like to see.</h2>
+   <div class="form-container">
+    
+<form action="https://formspree.io/f/mwpkanwr" method="post"> <!-- Required: Form 12/2/2024 -->
+    <fieldset> <!-- Required: Fieldset 12-2-24 -->
+        <legend>Contact Us</legend> <!-- Required: Legend 12-2-24 -->
+<label for="name">Name</label>
+<input name="name" id="name" type="text" placeholder="Your Name" maxlength="50" required> <!-- Required: Input 1 of 3 12-2-24 -->
+<!-- Required: Placeholder 12/2/2024 -->
+ <!-- Required: Max length 12/2/2024 -->
+  <!-- Required: Required attribute 12/2/2024 -->
+<label for="email">Email</label>
+<input name="email" id="email" type="email" placeholder="Your Email" required> <!-- Required: Data type email 12/2/2024 --> <!-- Required: Input 2 of 3 12-2-24 -->
+<label for="phone">Phone Number</label>
+<input 
+  name="phone" id="phone" type="tel" placeholder="Phone Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" 
+  required> <!-- Required: Input 3 of 3 12-2-24 -->
+  <!-- Required: Data type phone number 12/2/2024 -->
+<label for="message">Share Your Thoughts</label>
+<textarea name="message" id="message" placeholder="I think this is the best site ever"></textarea>
 
-   
+<div id="contact-button-container">
+    <button class="contact-button" type="reset">Clear</button> <!-- Required: Clear button 12/2/2024 -->
+<button class="contact-button" type="submit">Submit</button> <!-- Required: Submit button 12/2/2024 -->
+</div>
+
+</fieldset>
+</form>
+</div>
 
 
 <footer>
